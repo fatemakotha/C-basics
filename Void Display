@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+void Display1(); //  function prototype.
+void Display2(); //  function prototype.
+
+int main()
+{
+Display2();  //function call
+Display1();   //function call
+    printf("\nHello World11");
+    return 0;
+}
+void Display1()
+{
+Display2();
+    printf("\"Hello World\"");
+}
+void Display2()
+{
+    printf("\i am nice\n");
+    
+}
