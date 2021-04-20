@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void addNumbers();         // function prototype
+
+int main()
+{
+    addNumbers(); 
+    return 0;
+}
+
+void addNumbers()         // function definition
+{     
+    int n1,n2,sum;
+    printf("Enters two numbers: ");
+    scanf("%d %d",&n1,&n2);
+    sum = n1+n2;
+    printf("the result is %d", sum);
+    
+    //return sum;   
+	//return n1+n2               
+	// return statement
+}
